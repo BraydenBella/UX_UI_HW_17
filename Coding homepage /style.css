@@ -1,0 +1,96 @@
+
+#NAV{
+    font-family:Perpetua,Baskerville,Big Caslon,Palatino Linotype,Palatino,URW Palladio L,Nimbus Roman No9 L,serif; 
+    position:fixed;
+    top:0px;
+    left:0px;
+    height: 80px; 
+    width: 100%;
+    background-color: blue;
+    
+  
+}
+
+#NAV ul{
+    display:flex;
+    position:fixed;
+    right: 72px;
+    list-style-type: none;
+}
+
+#NAV ul li{
+    margin-left: 72px;
+    line-height: 40px;
+    font-size: 25px;
+    -webkit-text-stroke-width: 0.5px;
+    
+}
+
+#NAV .logo{
+    position: fixed;
+    left: 72px;
+    font-size: 80px;
+    line-height: 80px;
+    -webkit-text-stroke-width: 1px;
+}
+
+#NAV .logo .smaller{
+    font-size: 40px;
+}
+
+.section1{
+    font-family:Perpetua,Baskerville,Big Caslon,Palatino Linotype,Palatino,URW Palladio L,Nimbus Roman No9 L,serif; 
+    margin-right: auto;
+    margin-left: auto;
+    top: 80px;
+    left:349px;
+    width:1040px;
+    height: 497px;
+    display: flex;
+    background-color: green;
+}
+
+.section1 h2{
+    font-size: 70px;
+    margin-top: 80px
+}
+
+.section1 p{
+    font-size: 40px;
+    width: 459px;
+    margin-top: -60px
+}
+
+.section1 .image1{
+    width: auto;
+    height: 600px;
+    margin-top: 80px;
+    margin-left: 72px;
+}
+
+.footer ul{
+    font-family:Perpetua,Baskerville,Big Caslon,Palatino Linotype,Palatino,URW Palladio L,Nimbus Roman No9 L,serif; 
+    position:fixed;
+    bottom:0px;
+    left:0px;
+    height: 80px; 
+    width: 100%;
+    background-color: #373738;
+    list-style-type: none;
+    
+}
+
+.footer ul{
+    display:flex;
+    position:fixed;
+    right: 72px;
+    list-style-type: none;
+}
+
+.footer ul li{
+    margin-left: 72px;
+    line-height: 80px;
+    font-size: 25px;
+    -webkit-text-stroke-width: 0.5px;
+    
+}
